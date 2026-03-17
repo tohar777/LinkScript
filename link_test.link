@@ -1,0 +1,8 @@
+print("Starting GUI via Terminal...")
+ao.ui.InitWindow(800,600,"LinkScript")
+while ao.ui.running(){
+    ao.ui.start()
+
+    ao.ui.present()
+}
+ao.ui.close()

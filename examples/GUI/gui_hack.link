@@ -1,0 +1,20 @@
+
+
+actionobjectsui_setup(800, 600, "NebulaOS Hack Tool")
+
+while actionobjectsui_running() {
+    
+    actionobjectsui_start()
+    
+    actionobjectsui_clear("black")
+    
+    actionobjectsui_rect(0, 0, 800, 60, "green")
+    actionobjectsui_text(20, 15, "NEBULA OS - TARGET MONITOR", "black", 30)
+    
+    actionobjectsui_text(50, 100, "Target 1: 192.168.1.105 [ONLINE]", "green", 20)
+    
+    actionobjectsui_present()
+}
+
+actionobjectsui_close()
+print("GUI Closed.")

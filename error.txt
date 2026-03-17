@@ -1,0 +1,8 @@
+In file included from src/actionobjects.cpp:1:
+./include/actionobjects.h:23:8: warning: extra tokens at end of ‘#endif’ directive [-Wendif-labels]
+   23 | #endif ACTIONOBJECTS_UI_H
+      |        ^~~~~~~~~~~~~~~~~~
+src/actionobjects.cpp: In function ‘bool ActionObjects::UI::running()’:
+src/actionobjects.cpp:11:46: warning: no return statement in function returning non-void [-Wreturn-type]
+   11 |         bool running(){ WindowShouldClose(); }
+      |                                              ^
